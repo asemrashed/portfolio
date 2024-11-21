@@ -1,0 +1,67 @@
+.tech{
+    height: 1.8em;
+    padding-right: 0.5em !important;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 0.05em !important;
+    color: #000;
+}
+.skillBox{
+    display: flex;
+    align-items: center;
+    column-gap: 0.2em;
+}
+.o1{
+    background-color: #E34F26;
+    width: 80%;
+}
+.t2{
+    background-color: #1572B6 ;
+    width: 85%;
+}
+.t3{
+    background-color: #7952B3;
+    width: 65%;
+}
+.f4{
+    background-color: #F7DF1E ;
+    width: 87%;
+}
+.f5{
+    background-color: #61DAFB;
+    width: 60%;
+}
+.s6{
+    background-color: #007FFF;
+    width: 45%;
+}
+.s7{
+    background-color: #339933;
+    width: 55%;
+}
+.e8{
+    background-color:  #474747;
+    width: 30%;
+}
+.n9{
+    background-color: #47A248;
+    width: 25%;
+}
+
+.animateTech{
+    animation: tech 0.5s ease-in 1 alternate forwards;
+}
+@keyframes tech{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX();}
+}
+.Box{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:512px) {
+    .tech{
+        height: 2.5em;
+    }
+}

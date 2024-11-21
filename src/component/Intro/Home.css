@@ -1,0 +1,246 @@
+/* @import url('"https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100..900&family=Keania+One&family=Quantico:wght@400;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Yatra+One&display=swap" rel="stylesheet'); */
+.main{
+    /* background-color: rgb(250, 252, 249); */
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    max-width: 600px;
+    z-index: 3;
+}
+.greet1{
+    animation: greet 0.2s ease-in 1 alternate;
+}
+@keyframes greet{
+    0%{ font-size: 0%;}
+    100%{ font-size: 100%;}
+}
+.greet2{
+    animation: greet2 0.1s ease-in 0s 1 alternate;
+}
+@keyframes greet2{
+    0%{ opacity: 0%;}
+    100%{ opacity: 100%;}
+}
+  
+.typing-effect {
+    display: inline-block;
+    font-family: "Saira Stencil One", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    border-right: 4px solid;
+    animation: typing 1.7s steps(12) forwards, 
+                blinkCursor 0.25s step-end 10;
+}
+
+@keyframes typing {
+    from { width: 5%; }
+    to { width: 100%;
+        border-right: none; }
+}
+  
+@keyframes blinkCursor {
+    50% { border-color: transparent; }
+}
+  
+.skills{
+    height: 50px;
+    overflow: hidden;
+    margin: 20px 0px 15px 0px;
+    animation: skills 0.3s ease-in 1 alternate forwards;
+}
+@keyframes skills{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(0);}
+}
+.skill{
+    height: 100%;
+    animation: slide 5s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+    50%{transform: translateY(-50px);}
+    100%{transform: translateY(-100px);}
+}
+
+.sName{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    animation: skill 0.5s ease-in 1 alternate;
+}
+@keyframes skill {
+    0%{opacity: 0%;}
+    50%{opacity: 70%;}
+    100%{opacity: 100%;}
+}
+
+.btn{
+    animation: btn 0.5s ease-in 1 alternate;
+}
+@keyframes btn {
+    0%{opacity: 0%;}
+    50%{opacity: 40%;}
+    100%{opacity: 100%;}
+}
+
+.right{
+    flex-grow: 1;
+    position: relative;
+    height: 100dvh;
+    align-items: center;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: backbox 0.4s ease-in-out 0s 1 alternate;
+    overflow: hidden !important;
+}
+@keyframes backbox{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(0%);}
+}
+  
+.background {
+    /* display: none; */
+    clip-path: polygon(51% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #FFDB58; /* Background color for the clipped area */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23070707' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E"); /* SVG pattern background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Behind the image */
+}
+
+
+.img {
+    position: relative;
+    width: 80%;
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2; /* Above the clipped background */
+}
+
+
+@media(max-width:1199px){
+    .right{
+        flex-grow: 1 !important;
+    }
+    .img{
+        height: 80dvh;
+        width: 60dvh;
+    }
+}
+@media(max-width:1000px){
+    .typing-effect{
+        font-size: 3.2em !important;
+    }
+}
+@media(max-width:895px){
+    .main{ 
+        flex-direction: column;  
+    }
+    .background{display: none;}
+    .left{
+        height: 50dvh;
+        align-content: center; 
+    }
+    .typing-effect{
+        flex-direction: column;
+        font-size: 2.4em !important;
+        display: inline !important;
+        position: static !important;
+    }
+    .skills{
+        align-self: center;
+        margin: 10px 0px 15px 0px;
+        height: 40px;
+    }
+    @keyframes skills {
+        0%{opacity: 0%;}
+        100%{opacity: 100%;}
+    }
+    .btn{
+        align-self: center;
+        font-size: 0.8em !important;
+        padding: 0.2em!important;
+    }
+    .sName{
+        justify-content: center;
+        font-size: 1em !important;
+    }
+    /* @keyframes nam{
+        0%{transform: translateY(+300px);}
+        100%{transform: translateY(0px);}
+    } */
+    .right{
+        height: 50dvh;
+    }
+    .img{
+        width: 70%;
+    }
+    
+    /* .background{
+        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    } */
+    @keyframes backbox{
+        0%{transform: translateY(100%);}
+        100%{transform: translateY(0%);}
+    }
+}
+@media (min-height:1000px) and (max-height: 1400px) {
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        flex: 1;
+        width: 100dvw !important;
+    }
+    .tab{
+        text-align: center !important;
+    }
+    .typing-effect{
+        font-size: 4em !important;
+        margin: 1em 0em !important;
+        width: 80% !important;
+    }
+    .greet1{
+        font-size: 2.5em !important;
+        margin-bottom: 1em !important;
+    }
+    .skills{
+        margin: 2em 0em;
+    }
+    .sName{
+        justify-content: center;
+    }
+    .btn{
+        margin-top: 2em;
+        align-self: center;
+    }
+    .right{
+        flex: 1;
+    }
+    .background{
+        display: none;
+    }
+    .img{
+        opacity: 90%;
+        width: 100% !important;
+        height: 100%;
+    }
+}

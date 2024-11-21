@@ -1,0 +1,8 @@
+/* .topic{
+    overflow: hidden;
+    animation: item 1s ease 1s 1 forwards;
+}
+@keyframes item{
+    0%{transform: translateY(50px);}
+    100%{transform: translateY(0px);}
+} */

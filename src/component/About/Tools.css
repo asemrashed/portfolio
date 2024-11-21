@@ -1,0 +1,79 @@
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.details{
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    color: black;
+}
+.animate-exp{
+    animation: items 0.8s ease-in 1 alternate forwards;
+}
+@keyframes items{
+    0%{transform: translateY(100%); opacity: 0;}
+    10%{transform: translateY(90%); opacity: 1;}
+    100%{transform: translateY(0%); opacity: 1;}
+}
+.title{
+    border-top: 0.15em solid rgb(255, 253, 253);
+    color: rgb(252, 252, 249);
+    padding-bottom: 0.2em;
+    background-color: black;
+    z-index: 2;
+}
+
+@media(max-width:1200px){
+    .items{
+        font-size: small;
+        width: 100%;
+    }
+}
+@media(max-width:895px){
+    .items{
+        flex-direction: column-reverse;
+        border-top: 0px;
+        overflow: hidden;
+    }
+    
+    .title{
+        padding: 0em 0.2em;
+        font-size: smaller;
+        text-align: center;
+        border-bottom: 0.15em solid black;
+        border-top: 0em;
+    }
+    .details{
+        display: flex;
+        font-size: smaller;
+    }
+    @keyframes items{
+        0%{transform: translateY(-100%);}
+        100%{transform: translateY(0%);}
+    }
+}
+
+.one{
+    background-color: #E34F26 ;
+}
+.two{
+    background-color: #1572B6 ;
+}
+.three{
+    background-color: #F7DF1E;
+}
+.four{
+    background-color: #339933;
+}
+.five{
+    background-color: #414040;
+}
+.six{
+    background-color: #47A248;
+}
+.seven{
+    background-color: #61DAFB;
+}
