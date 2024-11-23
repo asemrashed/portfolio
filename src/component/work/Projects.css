@@ -96,6 +96,10 @@
     }
     .project{
         flex-direction: column; 
+        width: 95%;
+    }
+    .list{
+        width: 95%;
     }
 }
 /* @media (min-width: 769px) and (max-width: 1100px) and (max-height: 1380px) {
