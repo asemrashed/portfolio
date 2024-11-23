@@ -100,7 +100,7 @@ function ResponsiveAppBar() {
          }}>
           
           <Typography
-            variant="h5"
+            variant="h4"
             noWrap
             component="a"
             href="#app-bar-with-responsive-menu"
@@ -109,8 +109,9 @@ function ResponsiveAppBar() {
               display: { xs: "flex", md: "none" },
               flex: 1,
               fontWeight: 700,
-              color: "inherit",
+              color:theme.palette.secondary.main,
               textDecoration: "none",
+              cursor:'default'
             }}
           >
             AsemRashed
@@ -121,8 +122,10 @@ function ResponsiveAppBar() {
               size="large"
               aria-label="account of current user"
               onClick={handleOpenNavMenu}
-              color="inherit"
-              sx={{width:"1em"}}
+              sx={{
+                width:"1em",
+                color: theme.palette.secondary.main,
+              }}
             >
               <MenuIcon />
             </IconButton>
@@ -166,11 +169,11 @@ function ResponsiveAppBar() {
             fontFamily=' "Saira Stencil One", sans-serif'
             sx={{
               mr: 2,
-              color: "inherit",
               textDecoration: "none",
               flex: 1,
               display: { xs: "none", md: "flex" },
               color:theme.palette.secondary.main,
+              cursor:'default'
             }}
           >
             AsemRashed
@@ -182,7 +185,7 @@ function ResponsiveAppBar() {
                 onClick={() => scrollToSection(page.path)}
                 sx={{ 
                   mx: 1, 
-                  color: "inherit",
+                  color: "white",
                   borderBottom: activePage === page.path ? 
                     `0.2em solid ${theme.palette.secondary.main}`
                     :'none',
