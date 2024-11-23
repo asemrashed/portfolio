@@ -6,16 +6,18 @@
 }
 .overview{
     display: flex;
-    height: 100dvh;
+    height: 100dvh; 
     align-items: center;
     justify-content: center;
 }
 .heading{
+    position: relative;
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 2.5rem;
     height: 100%;
     line-height: 1em;
+    z-index: 9; 
 }
 .animate-heading{
     animation: projectH 0.25s ease-in 1 alternate;
