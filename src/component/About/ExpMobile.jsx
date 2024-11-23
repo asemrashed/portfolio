@@ -53,13 +53,13 @@ return(
                 <Typography variant="h5" className='tech e8'>
                     Express
                 </Typography>
-                <img style={{height:'2.5em'}} src="/exp/express-svgrepo-com.svg" alt="" />
+                <img style={{height:'1.5em'}} src="/exp/express-svgrepo-com.svg" alt="" />
             </Box>
             <Box className="skillBox" data-animation='animateTech'>
                 <Typography variant="h5" className='tech n9'>
                     MongoDB
                 </Typography>
-                <img style={{height:'2.5em'}} src="/exp/mongodb-opened-svgrepo-com.svg" alt="" />
+                <img style={{height:'1.5em'}} src="/exp/mongodb-opened-svgrepo-com.svg" alt="" />
             </Box>
         </AnimateOnView>
     </Box>

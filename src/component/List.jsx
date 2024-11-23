@@ -55,7 +55,7 @@ export default function List({ projects, activeProject, setActiveProject }) {
               <h2>{project.name}</h2> <hr />
               {/* <p><b>Tools: </b>{project.tools}</p> */}
               <p style={{ marginTop: 3 }}>
-                <b>Description</b>: {project.description}
+                {project.description}
               </p>
             </CardContent>
             <CardMedia

@@ -50,13 +50,15 @@ export default function WebCard({ project }) {
           display:'flex',
           flexDirection:'column',
           gap: isMobile ? 'none':'0.5em',
-          mt:{xs:'0.4em', sm:'0.7em'}
+          mt:{xs:'0.4em', sm:'0.7em'},
+          textAlign:'left'
         }}>
         <Typography
           variant="h5"
           sx={{
             fontWeight: "700",
-            color:'white'
+            color: theme.palette.primary.contrastText,
+            ml:'0.2em'
           }}
         >
           {project.name}
@@ -66,11 +68,17 @@ export default function WebCard({ project }) {
           lineHeight: isMobile ? '1.2em': '1.5em',
           color:'white'
          }}>
-          <b>Description: </b>
+          <b>Description : </b>
           {project.description}
+          <br/>
+          <b>Project Role : </b>
+          {project.role}
           <br />
-          <b>tools: </b>
+          <b>Tech : </b>
           {project.tools}
+          <br/>
+          <b>Achievements : </b>
+          {project.achievements}
         </Typography>
         <Box
           sx={{

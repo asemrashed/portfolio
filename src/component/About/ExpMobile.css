@@ -60,8 +60,3 @@
     display: flex;
     align-items: center;
 }
-@media (max-width:512px) {
-    .tech{
-        height: 2.5em;
-    }
-}
