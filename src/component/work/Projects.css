@@ -118,3 +118,8 @@
 
     }
 }
+@media (max-width:520px) {
+    .mul{
+        height: 110dvh;
+    }
+}

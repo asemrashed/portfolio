@@ -44,3 +44,8 @@
         width: 50dvh;
     }
 }
+@media (max-width:520px) {
+    .mainA{
+        height: 110dvh;
+    }
+}
