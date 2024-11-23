@@ -6,6 +6,10 @@
 }
 .subMain{
     display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .leftA{
     display: flex;
@@ -42,10 +46,5 @@
     }
     .leftA{
         width: 50dvh;
-    }
-}
-@media (max-width:520px) {
-    .mainA{
-        height: 110dvh;
     }
 }

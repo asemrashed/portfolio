@@ -80,7 +80,7 @@
     }
     .overview{
         flex-direction: column-reverse !important;
-        height: 95dvh;
+        height: 98dvh;
     }  
     .heading{
         margin-top: 0.1em;
@@ -102,11 +102,6 @@
         width: 95%;
     }
 }
-/* @media (min-width: 769px) and (max-width: 1100px) and (max-height: 1380px) {
-    .mul{
-        flex-direction: column;
-    }
-} */
 @media (min-height:1000px) and (max-height: 1400px) {
     .mul{
         width: 100%;
@@ -116,10 +111,5 @@
     .overview{
         flex-direction: column ;
 
-    }
-}
-@media (max-width:520px) {
-    .mul{
-        height: 110dvh;
     }
 }
