@@ -19,7 +19,7 @@ const Email = forwardRef((props, ref) => {
   }= EmailCondition()
 
   return (
-    <Box className="email">
+    <Box className="email"> 
       <Paper
         elevation={10}
         component="form"

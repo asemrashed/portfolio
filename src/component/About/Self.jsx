@@ -28,7 +28,7 @@ export default function Self() {
           sx={{ color: theme.palette.primary.contrastText }}
         >
           <Typography variant="h6" sx={{ mt: { xs: 1.5, md:0} }}>
-            I'm <b>MUHAMMAD ASEM RASHED</b>
+            I'm <b>MOHAMMAD ASEM RASHED</b>
           </Typography>
           <Typography variant="body1" sx={{ mt: { xs: 0, md: 0 } }}>
             - A passionate <b>front-end developer</b> with expertise in creating{" "}
