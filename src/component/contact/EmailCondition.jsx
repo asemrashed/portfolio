@@ -64,10 +64,6 @@ const EmailCondition = () => {
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
   const userId = import.meta.env.VITE_EMAILJS_USER_ID;
 
-  console.log("Service ID:", serviceId);
-  console.log("Template ID:", templateId);
-  console.log("User ID:", userId);
-
   if (!serviceId || !templateId || !userId) {
     alert("Email configuration is missing. Please check your setup.");
     return;
