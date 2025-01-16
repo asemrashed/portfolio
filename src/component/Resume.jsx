@@ -44,7 +44,7 @@ export default function Resume({ resumeClose }) {
             alt="Resume"
           />
           <a
-            href="/resume/Mohammad Asem Rashed (Resume).pdf"
+            href="/resume/Mohammad Asem Rashed dev.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'blue', textDecoration: 'underline' }}
@@ -75,7 +75,7 @@ export default function Resume({ resumeClose }) {
             alt="Tablet View Resume"
           />
           <a
-            href="/resume/Mohammad Asem Rashed (Resume).pdf"
+            href="/resume/Mohammad Asem Rashed dev.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'blue', textDecoration: 'underline', fontSize:'1.3em' }}
@@ -93,7 +93,7 @@ export default function Resume({ resumeClose }) {
         </Box>
       ) : (
         <iframe
-          src="/resume/Mohammad Asem Rashed (Resume).pdf"
+          src="/resume/Mohammad Asem Rashed dev.pdf"
           width="100%"
           height="100%"
           title="PDF Viewer"
