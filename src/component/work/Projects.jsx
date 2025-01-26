@@ -1,10 +1,9 @@
-import { Box, height } from "@mui/system";
+import { Box } from "@mui/system";
 import "./Projects.css";
 import WebCard from "../Web";
 import { useState, useEffect, useRef } from "react";
 import List from "../List";
 import { useTheme } from "@mui/material/styles";
-import TimeDelay from "../TimeDelay";
 import AnimateOnView from "../AnimatOnView.jsx";
 
 export default function Projects({ projects }) {
@@ -45,7 +44,7 @@ export default function Projects({ projects }) {
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "left",
-                    borderRadius: 2,
+                    borderRadius: 2, 
                   }}
                 >
                   <List

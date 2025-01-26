@@ -25,7 +25,7 @@ export default function WebCard({ project }) {
   }
   return (
     <>
-      <Card
+      <Card 
         sx={{
           bgcolor: "rgba(250, 252, 249, 0)",
           boxShadow: "0.2em 0.2em 0.2em 0.1em #817f7f",

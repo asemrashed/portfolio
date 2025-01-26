@@ -83,6 +83,8 @@ function ResponsiveAppBar() {
   },[]);
 
   const theme= useTheme()
+  const nameLogo= " <Asem Rashed/>"
+
   return (
     <AppBar position="fixed" sx={{ 
       height:{xs:'2.5em', md:'3em'}, 
@@ -98,7 +100,7 @@ function ResponsiveAppBar() {
           justifyContent: 'space-between', 
           color: theme.palette.text.secondary,
          }}>
-          
+
           <Typography
             variant="h4"
             noWrap
@@ -111,10 +113,12 @@ function ResponsiveAppBar() {
               fontWeight: 700,
               color:theme.palette.secondary.main,
               textDecoration: "none",
-              cursor:'default'
+              cursor:'default',
+              alignItems:'center'
             }}
           >
-            AsemRashed
+            <img src="/logo/LOGOultimate.png" alt="" style={{height:'30px'}}/>
+            {nameLogo}
           </Typography>
 
           <Box sx={{ flex: 1, display: { xs: "flex", md: "none"}, justifyContent:'right'}}>
@@ -173,10 +177,11 @@ function ResponsiveAppBar() {
               flex: 1,
               display: { xs: "none", md: "flex" },
               color:theme.palette.secondary.main,
-              cursor:'default'
+              cursor:'pointer',
+              alignItems:'center'
             }}
-          >
-            AsemRashed
+          > <img src="/logo/LOGOultimate.png" alt="" style={{height:'40px'}}/>
+            {nameLogo}
           </Typography>
           <Box sx={{ flexGrow: 0.3, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
