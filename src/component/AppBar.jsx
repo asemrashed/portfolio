@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
-              flex: 1,
+              flex: 5,
               fontWeight: 700,
               color:theme.palette.secondary.main,
               textDecoration: "none",
