@@ -26,9 +26,9 @@ export default function ProjectsPage(){
             gitHub:'https://github.com/asemrashed/portfolio', 
         },
         {
-            name:"Let's TravelBD",
-            image:'/sites/latsTravel.png',
-            mobileImage:'/sites/LatsTravelMobile.png',
+            name:"Travel BANGLADESH",
+            image:'/sites/travelBD.png',
+            mobileImage:'/sites/travelBDmobile.png',
             description:"A platform to explore, add, edit, and review Bangladesh's tourist spots with an interactive map.",
             role: 'Sole developer, handling all front-end, back-end, and security aspects.',
             tools:[' Ejs,',' CSS, ',' VenillaJS, ',' BootStrap, ',' NodeJS, ',' Express, ','& MongoDB. ' ],

@@ -39,7 +39,7 @@ export default function Resume({ resumeClose }) {
           }}
         >
           <img
-            src="/resume/Mohammad Asem Rashed.jpg"
+            src="/resume/Mohammad Asem Rashed.png"
             width="100%"
             alt="Resume"
           />
@@ -70,7 +70,7 @@ export default function Resume({ resumeClose }) {
           }}
         >
           <img
-            src="/resume/Mohammad Asem Rashed.jpg"
+            src="/resume/Mohammad Asem Rashed.png"
             width="100%"
             alt="Tablet View Resume"
           />

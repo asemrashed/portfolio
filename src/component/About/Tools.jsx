@@ -50,7 +50,8 @@ export const Tools2 = () => {
           <Tool v={"Animation"} />
           <Tool v={"Layout"} />
           <Tool v={"Responsive"} />
-          <Tool v={"Media"} b={"0rem"} />
+          <Tool v={"Media"}/>
+          <Tool v={"SASS"} b={"0rem"} />
         </div>
         </AnimateOnView>
         <div className="title">
