@@ -10,12 +10,12 @@ import Footer from "./component/Footer/Footer";
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#0D1321',
+      main: '#002349',
       contrastText: '#FFDB58'
     },
     secondary: {
       main: '#FFDB58',
-      contrastText: '#0D1321'
+      contrastText: '#002349'
     },
     text:{
       primary:'#000',
@@ -24,7 +24,8 @@ const theme = createTheme({
     },
     background:{
       default:'#b7b8b7',
-      primary:'#228808'
+      primary: '#0A1828',
+      secondary: '#205A28'
     }
   },
   

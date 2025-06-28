@@ -1,4 +1,3 @@
-import * as React from "react";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import { useState, useEffect } from "react";
@@ -28,7 +27,7 @@ export default function WebCard({ project }) {
       <Card 
         sx={{
           bgcolor: "rgba(250, 252, 249, 0)",
-          boxShadow: "0.2em 0.2em 0.2em 0.1em #817f7f",
+          boxShadow: "0.2em 0.2em 0.2em 0.1em rgb(126, 107, 46)",
           mt:'0.5em',
           width:{xs:'95%',sm:'none'}
         }}
@@ -38,7 +37,7 @@ export default function WebCard({ project }) {
             height:{xs: isMobile ? '275px' : '190px', md: isMobile ? '355px':'190px',lg: isMobile ? '360px' : '255px'},
             width: {xs: isMobile ? "130px" : "400px", md: isMobile ? '168px':'400px', lg: isMobile ? '170px' : '550px'},
             borderRadius:{xs:'0.3em', sm:"none"},
-            border:'4px solid #f0f0f0',
+            border: `4px solid ${theme.palette.secondary.contrastText}`,
             overflow: "auto",
             left:'50%',
             right:'50%',
@@ -57,7 +56,7 @@ export default function WebCard({ project }) {
           variant="h5"
           sx={{
             fontWeight: "700",
-            color: theme.palette.primary.contrastText,
+            color: theme.palette.secondary.contrastText,
             ml:'0.2em'
           }}
         >
@@ -66,7 +65,7 @@ export default function WebCard({ project }) {
         <Typography variant="body2" 
           sx={{ mx:{xs:0.8, sm:1}, 
           lineHeight: isMobile ? '1.2em': '1.5em',
-          color:'white'
+          color: theme.palette.secondary.contrastText,
          }}>
           <b>Description : </b>
           {project.description}
@@ -98,7 +97,9 @@ export default function WebCard({ project }) {
             height="2em"
             size="large"
             bg="#fff"
-            hoverBg= {theme.palette.secondary.main}
+            outline= {theme.palette.primary.main}
+            hoverBg= {theme.palette.primary.main}
+            hoverText={theme.palette.primary.contrastText}
           />
           <Btn
             variant="filled"
@@ -108,7 +109,9 @@ export default function WebCard({ project }) {
             height="2em"
             size="large"
             bg="#fff"
-            hoverBg= {theme.palette.secondary.main}
+            outline= {theme.palette.primary.main}
+            hoverBg= {theme.palette.primary.main}
+            hoverText={theme.palette.primary.contrastText}
           />
           <a onClick={toggleView} style={{cursor:'pointer', display:'flex', alignItems:'center'}}>
             <img 

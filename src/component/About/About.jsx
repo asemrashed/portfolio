@@ -9,7 +9,7 @@ export default function About() {
   return (
     <Box
       className="mainA"
-      style={{ backgroundColor: theme.palette.primary.main }}
+      style={{ backgroundColor: theme.palette.background.primary }}
     >
       <Box className='subMain' sx={{width:{xs:'98%',md:'95%',lg:'90%'}}}>
         <Box className="leftA">

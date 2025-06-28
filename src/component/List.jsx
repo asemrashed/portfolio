@@ -22,9 +22,9 @@ export default function List({ projects, activeProject, setActiveProject }) {
             width: { xs: "95%", md: "95%" },
             my: { xs: 0.5, md: 0.8 },
             textAlign: "left",
-            bgcolor: theme.palette.secondary.main,
+            bgcolor: theme.palette.primary.main,
             ":hover": {
-              transform: "scale(1.02)",
+              transform: "scale(1.01)",
               transition: "0.2s",
             },
           }}
@@ -46,9 +46,9 @@ export default function List({ projects, activeProject, setActiveProject }) {
               sx={{
                 width: "70%",
                 lineHeight: { md: 1.3 },
-                color: theme.palette.secondary.contrastText,
+                color: theme.palette.secondary.main,
                 ":hover": {
-                  color: theme.palette.text.primary,
+                  color: theme.palette.text.secondary,
                 },
               }}
             >

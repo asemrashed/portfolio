@@ -14,7 +14,7 @@ export default function Projects({ projects }) {
 
   return (
     <Box sx={{
-      bgcolor: theme.palette.primary.main,
+      bgcolor: theme.palette.secondary.main,
       overflow: "hidden",
       display:'flex',
       justifyContent:'center'
@@ -28,8 +28,8 @@ export default function Projects({ projects }) {
               className="heading"
               data-animation='animate-heading'
               style={{
-                backgroundColor: theme.palette.secondary.main,
-                color: theme.palette.secondary.contrastText,
+                backgroundColor: theme.palette.primary.main,
+                color: theme.palette.primary.contrastText,
               }}
             >
               Projects
@@ -46,6 +46,7 @@ export default function Projects({ projects }) {
                     alignItems: "center",
                     justifyContent: "left",
                     borderRadius: 2, 
+                    my:3,
                   }}
                 >
                   <List

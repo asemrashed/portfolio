@@ -23,6 +23,7 @@ export default function Btn({
         display:{xs: minD, md: maxD},
         bgcolor: bg,
         color: color,
+        outline: outline ? `1px solid ${outline}` : 'none',
         fontSize:{xs: '12px', md:'15px'},
         height:height,
         width: {xs:minWidth, md:width},

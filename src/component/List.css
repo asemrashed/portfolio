@@ -4,7 +4,7 @@
 .card{
   display: flex;
   border-radius: 0.2em !important;
-  box-shadow: 0.2em 0.2em 0.2em 0.01em #817f7f !important;
+  box-shadow: 0.2em 0.2em 0.2em 0.01em #2c2f3f !important;
   position: relative;
 }
 

@@ -11,7 +11,8 @@ export default function Expertise() {
     <>
     <AnimateOnView>  
     <div className="exp" data-animation='animate-allExp'>
-      <div className="topE">
+      <div className="topE" style={{
+        backgroundColor: theme.palette.primary.main,}}>
         <Box className="tools">
           <Tools1/>
         </Box>
