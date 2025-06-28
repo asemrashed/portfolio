@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "./App.css";
-import { createTheme, ThemeProvider, Container, Typography, CssBaseline } from "@mui/material";
+import { createTheme, ThemeProvider, Container } from "@mui/material";
 import Home from "./component/Intro/Home";
 import ResponsiveAppBar from "./component/AppBar";
 import ProjectsPage from "./component/work/ProjectPage";

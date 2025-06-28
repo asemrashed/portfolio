@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
   
 export default function ExpMobile() {
 return(
-    <Box className="technology">
+    <Box className="technology" sx={{mt:{xs:1,md:0}, mb:{xs:1,md:0}}}>
         <AnimateOnView delay={100}>
             <Box className="skillBox" data-animation='animateTech'>
                 <Typography variant="h5" className='tech o1'>
@@ -18,6 +18,12 @@ return(
                     css
                 </Typography>
                 <img style={{height:'1.5em'}} src="/exp/css-3-svgrepo-com.svg" alt="" />
+            </Box>
+            <Box className="skillBox" data-animation='animateTech'>
+                <Typography variant="h5" className="tech t22">
+                    tailwindCSS
+                </Typography>
+                <img style={{height:'1.5em'}} src="/exp/tailwindcss.svg" alt="" />
             </Box>
             <Box className="skillBox" data-animation='animateTech'>
                 <Typography variant="h5" className='tech t3' >
@@ -36,6 +42,12 @@ return(
                     ReactJs
                 </Typography>
                 <img style={{height:'1.5em'}} src="/exp/react-1-logo-svgrepo-com.svg" alt="" />
+            </Box>
+            <Box className="skillBox" data-animation='animateTech'>
+                <Typography variant="h5" className='tech f55'>
+                    Next.js
+                </Typography>
+                <img style={{height:'1.5em'}} src="/exp/nextjs.svg" alt="" />
             </Box>
             <Box className="skillBox" data-animation='animateTech'>
                 <Typography variant="h5" className='tech s6'>

@@ -1,4 +1,4 @@
-import { Card, Paper, Typography } from "@mui/material";
+import { Card, Typography } from "@mui/material";
 import "./Self.css";
 import AnimateOnView from "../AnimatOnView";
 import { useTheme } from "@mui/material/styles";
@@ -28,7 +28,7 @@ export default function Self() {
           sx={{ color: theme.palette.primary.contrastText }}
         >
           <Typography variant="h6" sx={{ mt: { xs: 1.5, md:0} }}>
-            I'm <b>MOHAMMAD ASEM RASHED</b>
+            I&apos;m <b>MOHAMMAD ASEM RASHED</b>
           </Typography>
           <Typography variant="body1" sx={{ mt: { xs: 0, md: 0 } }}>
             - A passionate <b>front-end developer</b> with expertise in creating{" "}
@@ -41,8 +41,7 @@ export default function Self() {
             visual reality through the art of <b>coding</b>, sparking my journey into <b>programming</b>.
           </Typography>
           <Typography variant="body1" sx={{ mt: { xs: 0, md: 0.8 } }}>
-            - I am a diploma graduate in <b>Mechanical Engineering</b>, now
-            channeling my analytical and creative skills into the tech industry.
+            - I am a diploma graduate, currently pursuing a BSc in Automobile at World University in Uttara through a flexible program.
           </Typography>
           <Typography variant="body2" sx={{ mt: { xs: 0, md: 0.8 } }}>
             - Originally from <b>Chittagong</b>, I currently reside in{" "}

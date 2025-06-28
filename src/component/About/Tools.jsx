@@ -183,13 +183,19 @@ export const Tools7 = () => {
       <div className="items">
       <AnimateOnView delay={400}>
         <div className="details seven" data-animation='animate-exp'>
+          <Box sx={{ backgroundColor: theme.palette.primary.main }}>
+          <img style={{height:'1.5em', marginRight:'0.5em'}} src="/exp/nextjs.svg" alt="" />
+          <img style={{height:'1.5em'}} src="/exp/tailwindcss.svg" alt="" />
+          </Box>
           <Box sx={{backgroundColor: theme.palette.primary.main}}>
-          <img style={{height:'1.5em'}} src="/exp/react-1-logo-svgrepo-com.svg" alt="" />
-          <img style={{height:'1.5em'}} src="/exp/material-ui-svgrepo-com.svg" alt="" />
+          <img style={{height:'1.5em', marginRight:'0.5em'}} src="/exp/react-1-logo-svgrepo-com.svg" alt="" />
+          <img style={{height:'1.5em', marginRight:'0.5em'}} src="/exp/material-ui-svgrepo-com.svg" alt="" />
           <img style={{height:'1.5em'}} src="/exp/bootstrap-4-logo-svgrepo-com.svg" alt="" />
           </Box>
-          <Tool v={"Bootstrap"} />
           <b><Tool v={"React.js"} /></b>
+          <b><Tool v={"Next.js"} /></b>
+          <Tool v={"tailwindCSS"} />
+          <Tool v={"Bootstrap"} />
           <Tool v={"MUI"} b={"0rem"} />
         </div>
         </AnimateOnView>

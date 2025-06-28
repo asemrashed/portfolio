@@ -1,11 +1,12 @@
 import { Box } from "@mui/system";
 import "./Projects.css";
 import WebCard from "../Web";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import List from "../List";
 import { useTheme } from "@mui/material/styles";
 import AnimateOnView from "../AnimatOnView.jsx";
 
+// eslint-disable-next-line react/prop-types
 export default function Projects({ projects }) {
   const theme = useTheme();
   // const Delay = TimeDelay(500);

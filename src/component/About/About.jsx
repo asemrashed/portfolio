@@ -1,4 +1,3 @@
-import React from "react";
 import { Box } from "@mui/system";
 import "./About.css";
 import Self from "./Self";

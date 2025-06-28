@@ -1,6 +1,5 @@
 import "./Expertise.css";
 import { Box } from "@mui/system";
-import Tool from "./Tool";
 import {Tools1, Tools2, Tools3, Tools4, Tools5, Tools6, Tools7} from "./Tools";
 import AnimateOnView from "../AnimatOnView";
 import { useTheme } from "@mui/material/styles";
