@@ -42,6 +42,7 @@ export default function Footer() {
             maxH="3em" minH="2.3em"
             path={
               <svg
+                width="100%"
                 fill="#fdfcfc"
                 version="1.1"
                 id="Layer_1"
@@ -53,7 +54,7 @@ export default function Footer() {
                 <g id="SVGRepo_bgCarrier" strokeWidth="0">
                   <path
                     transform="translate(-51.2, -51.2), scale(38.40125)"
-                    fill="#0D1321"
+                    fill="#0e1d44ff"
                     d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z"
                     strokeWidth="0"
                   ></path>
