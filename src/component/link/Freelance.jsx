@@ -1,7 +1,8 @@
-import { Box, width } from "@mui/system";
+/* eslint-disable react/prop-types */
+import { Box} from "@mui/system";
 import "./Freelance.css";
 
-export default function Freelance({path,bg,link, minW='3.3em', maxW="5em", minH='3.3em', maxH="5em"}) {
+export default function Freelance({path, bg, link, minW='3.3em', maxW="5em", minH='3.3em', maxH="5em"}) {
   return (
     <a href={link}>
       <Box className="link" 
@@ -16,9 +17,9 @@ export default function Freelance({path,bg,link, minW='3.3em', maxW="5em", minH=
             md: maxH,
           }
         }}>
-        <button class="linkBtn ">
+        <Box className="linkBtn ">
           {path}
-        </button>
+        </Box>
       </Box>
     </a>
   );
