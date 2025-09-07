@@ -14,9 +14,9 @@
     position: relative;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     height: 100%;
-    line-height: 1em;
+    line-height: 1.2em;
     z-index: 9; 
 }
 .animate-heading{
@@ -74,11 +74,12 @@
 @media(max-width:895px){
     .mul{
         flex-direction: column;
-        height: 100dvh;
+        height: 110dvh;
     }
     .overview{
         flex-direction: column-reverse !important;
-        height: 98dvh;
+        height: 105dvh;
+        gap: 15px;
     }  
     .heading{
         margin-top: 0.1em;
@@ -98,6 +99,7 @@
     }
     .list{
         width: 95%;
+        border-radius: 15px;
     }
 }
 @media (min-height:1000px) and (max-height: 1400px) {

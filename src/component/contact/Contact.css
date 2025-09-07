@@ -16,6 +16,7 @@
 @media(max-width:895px){
     .full{
         width: 95dvw ;
+        height: 60dvh;
         align-items: center;
         margin-left: 0.5em;
     }

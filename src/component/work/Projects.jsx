@@ -45,8 +45,6 @@ export default function Projects({ projects }) {
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "left",
-                    borderRadius: 2, 
-                    my:3,
                   }}
                 >
                   <List

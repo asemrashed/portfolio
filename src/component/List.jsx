@@ -1,10 +1,8 @@
-import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import { createTheme, height, positions } from "@mui/system";
 import "./List.css";
   
 export default function List({ projects, activeProject, setActiveProject }) {
@@ -20,7 +18,7 @@ export default function List({ projects, activeProject, setActiveProject }) {
             display: "flex",
             flexDirection: "column",
             width: { xs: "95%", md: "95%" },
-            my: { xs: 0.5, md: 0.8 },
+            my: { xs: 0.7, md: 0.8 },
             textAlign: "left",
             bgcolor: theme.palette.primary.main,
             ":hover": {

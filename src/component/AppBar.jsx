@@ -137,6 +137,7 @@ function ResponsiveAppBar() {
               anchorEl={anchorElNav}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
+              sx={{marginTop:1}}
             >
               {pages.map((page) => (
                 <MenuItem key={page.name} onClick={() => {
@@ -146,7 +147,7 @@ function ResponsiveAppBar() {
                 sx={{
                   width:'95dvw',
                   height:'4em',
-                  bgcolor:'#333',
+                  bgcolor:'#002349',
                   color:'#fff',
                   display:'flex',
                   justifyContent:'center',
@@ -158,7 +159,7 @@ function ResponsiveAppBar() {
                 </MenuItem>
               ))}
               <Box sx={{display:'flex', justifyContent:'center', alignItems:'center',
-                bgcolor:'#333', height:'4em'}}>
+                bgcolor:'#002349', height:'4em'}}>
               <ResumeBtn 
                 height='3em' 
                 variant="outlined" 

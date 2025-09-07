@@ -26,6 +26,9 @@
 }
 
 @media (max-width:895px){
+    .mainA{
+        height: 95dvh;
+    }
     .subMain{
         flex-direction: column;
         align-items: center;

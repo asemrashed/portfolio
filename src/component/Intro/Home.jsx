@@ -1,4 +1,4 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography} from "@mui/material";
 import "./Home.css";
 import { useSpring, animated } from "@react-spring/web";
 import TimeDelay from "../TimeDelay";
@@ -123,9 +123,9 @@ export default function Home() {
           {Delay && (
             <Box className="skills">
               <Box className="skill">
-                <div className="sName">Front-End Web Developer</div>
-                <div className="sName">Web Designer</div>
-                <div className="sName">Knowledgeable in Back-End Development</div>
+                <div className="sName">Junior Web Developer</div>
+                <div className="sName">Frontend web Developer</div>
+                <div className="sName">MERN stack Development</div>
               </Box>
             </Box>
           )}
