@@ -17,9 +17,9 @@ export const Tools1 = () => {
           <Tool v={"Links"} />
           <Tool v={"Navigation"} />
           <Tool v={"Multimedia"} />
+          <Tool v={"Form"} />
           <Tool v={"Input"} />
           <Tool v={"Tables"} />
-          <Tool v={"Attribute"} />
           <Tool v={"GeoCoding"} b={"0rem"} />
         </div>
         </AnimateOnView> 
@@ -41,15 +41,15 @@ export const Tools2 = () => {
           <Tool v={"Selectors"} />
           <Tool v={"Box model"} />
           <Tool v={"Typography"} />
-          <Tool v={"Colors"} />
-          <Tool v={"Backgroud"} />
+          {/* <Tool v={"Colors"} />
+          <Tool v={"Backgroud"} /> */}
           <Tool v={"Positioning"} />
           <Tool v={"Flexbox"} />
           <Tool v={"Grid"} />
           <Tool v={"Transform"} />
+          <Tool v={"Transition"} />
           <Tool v={"Animation"} />
           <Tool v={"Layout"} />
-          <Tool v={"Responsive"} />
           <Tool v={"Media"}/>
           <Tool v={"SASS"} b={"0rem"} />
         </div>
@@ -85,7 +85,8 @@ export const Tools3 = () => {
           <Tool v={"Promises"} />
           <Tool v={"Async"} />
           <Tool v={"ErrorHandling"} />
-          <Tool v={"Git"} b={"0rem"} />
+          <Tool v={"Exec. contexts"} />
+          <Tool v={"Clouser"} b={"0rem"}/>
         </div>
       </AnimateOnView>
         <div className="title">
@@ -105,10 +106,8 @@ export const Tools4 = () => {
           <Tool v={"npm"} />
           <Tool v={"Json"} />
           <Tool v={"Async"} />
-          <Tool v={"HTTP"} />
+          <Tool v={"HTTPS"} />
           <Tool v={"WebServer"} />
-          <Tool v={"Express.js"} />
-          <Tool v={"ErroHandling"} />
           <Tool v={"Security"} />
           <Tool v={"Hash"} />
           <Tool v={"Bcrypt"} />
@@ -132,12 +131,10 @@ export const Tools5 = () => {
         <img style={{height:'1.8em', backgroundColor: theme.palette.primary.main}} src="/exp/express-svgrepo-com.svg" alt="" />
           <Tool v={"Routing"} />
           <Tool v={"Middleware"} />
-          <Tool v={"EJS"} />
           <Tool v={"Parsing"} />
           <Tool v={"Authentication"} />
           <Tool v={"Authorization"} />
           <Tool v={"RESTful APIs"} />
-          <Tool v={"MongoDB Basic"} />
           <Tool v={"ErroHandling"} />
           <Tool v={"Security"} />
           <Tool v={"Session"} />
@@ -162,7 +159,6 @@ export const Tools6 = () => {
           <Tool v={"Mongoose"} />
           <Tool v={"Schema & Model"} />
           <Tool v={"Static Methods"} />
-          <Tool v={"MIddleware"} />
           <Tool v={"JoiSchema"} />
           <Tool v={"Relation"} />
           <Tool v={"Denormalization"} />

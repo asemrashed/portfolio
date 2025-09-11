@@ -34,14 +34,14 @@ export default function WebCard({ project }) {
       >
         <CardMedia
           sx={{
-            height:{xs: isMobile ? '275px' : '190px', md: isMobile ? '355px':'190px',lg: isMobile ? '360px' : '255px'},
-            width: {xs: isMobile ? "130px" : "400px", md: isMobile ? '168px':'400px', lg: isMobile ? '170px' : '550px'},
+            height:{xs: isMobile ? '275px' : '175px', md: isMobile ? '355px':'190px',lg: isMobile ? '360px' : '255px'},
+            width: {xs: isMobile ? "130px" : "355px", md: isMobile ? '168px':'400px', lg: isMobile ? '170px' : '550px'},
             borderRadius:{xs:'0.3em', sm:"none"},
             border: `4px solid ${theme.palette.secondary.contrastText}`,
             overflow: "auto",
             left:'50%',
             right:'50%',
-            margin:'auto',
+            margin: 'auto',
           }}
           image= {currentImage}
         />

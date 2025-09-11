@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
+import { Typography} from "@mui/material";
 import "./List.css";
   
 export default function List({ projects, activeProject, setActiveProject }) {
@@ -51,16 +52,28 @@ export default function List({ projects, activeProject, setActiveProject }) {
               }}
             >
               <h2>{project.name}</h2> <hr />
-              {/* <p><b>Tools: </b>{project.tools}</p> */}
-              <p style={{ marginTop: 3 }}>
-                {project.description}
+              <Typography
+                variant="body2" 
+                sx={{
+                  lineHeight:{xs:'1.2em', md:'1.5em'},
+                  color: theme.palette.primary.contrastText,
+                  mt: 0.5,
+                  fontSize:{xs:'0.85rem', md:'1rem'}
+                }}>
+                  
+              <p>
+                <b>Project Type :</b> {project.projectType}
               </p>
+              <p>
+                <b>TechStack :</b> {project.tools}
+              </p>
+                </Typography>
             </CardContent>
             <CardMedia
               component="img"
-              sx={{ width: { xs: "150px", md: "200px", lg:'40%' }}}
+              sx={{ width: { xs: "150px", md: "200px", lg:'40%'}, borderRadius:'5px'}}
               image={project.image}
-              alt=""
+              alt="project image"
             />
           </Box>
         </Card>
