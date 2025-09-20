@@ -35,7 +35,7 @@ export default function ProjectsPage(){
             role: 'Sole developer, handling all front-end, back-end, and security aspects.',
             tools:[' Ejs,',' CSS, ',' BootStrap, ',' VenillaJS, ',' NodeJS, ',' Express, ','& MongoDB. ' ],
             achievements: 'Successfully built and deployed a secure, responsive website to streamline user interaction with popular tourist locations.',
-            visit: 'https://lats-travelbangladesh.onrender.com',
+            visit: 'https://travel-bangladesh-tb.vercel.app/',
             gitHub: 'https://github.com/asemrashed/latsTravelBD',
             projectType:'Full-stack',
         },{
