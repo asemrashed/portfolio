@@ -87,7 +87,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="fixed" sx={{ 
-      height:{xs:'2.5em', md:'3em'}, 
+      height:{xs:'3em', md:'4em'}, 
       bgcolor: '#0A1828',display:'flex',
       justifyContent:'center', 
       top: showNavbar ? '0':'-3em', 

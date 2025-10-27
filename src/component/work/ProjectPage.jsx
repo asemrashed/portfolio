@@ -4,7 +4,19 @@ import Projects from "./Projects"
 export default function ProjectsPage(){
     const projects=[
         {
-            name:"E-Auction (paid project)",
+            name:"Green Nest (Under Development)",
+            image:'/sites/green-nest.png',
+            mobileImage:'/sites/green-nest-mobile.png',
+            description:"An online e-commerce platform for selling indoor plants and booking expert consultations.",
+            role:'Responsible for UI/UX design, front-end development, and deployment.',
+            tools:['React, ', ' Vite, ', ' Tailwind CSS, ', ' DaisyUI, ', ' FirebaseAuth, ', '& SwiperJS '],
+            achievements: 'Successfully designed, built, and deployed a secure, responsive web app featuring indoor plant listings, user authentication, and expert appointment scheduling.',
+            visit:'https://green-nest-by-asem.netlify.app/',
+            gitHub: 'https://github.com/asemrashed', 
+            projectType:'Frontend',
+        },
+        {
+            name:"E-Auction (ongoing paid project)",
             image:'/sites/eAuction.png',
             mobileImage:'/sites/eAuctionMobile.png',
             description:'A platform for online bidding and auctions, showcasing real-time bidding features.',
