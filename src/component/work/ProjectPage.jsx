@@ -50,7 +50,20 @@ export default function ProjectsPage(){
             visit: 'https://travel-bangladesh-tb.vercel.app/',
             gitHub: 'https://github.com/asemrashed/latsTravelBD',
             projectType:'Full-stack',
-        },{
+        },
+        {
+            name: "Hero IO",
+            image: "/sites/hero-io.png",
+            mobileImage: "/sites/hero-io-mobile.png",
+            description: "A responsive landing page showcasing digital service features with smooth UI.",
+            role: "Frontend development and deployment.",
+            tools: ['React, ', ' Vite, ', ' Tailwind CSS, ', '& DaisyUI, '],
+            achievements: "Created a clean and responsive layout with smooth and fast performance.",
+            visit: "https://hero-io-by-asem-rashed.netlify.app/",
+            gitHub: "https://github.com/asemrashed/Hero-IO",
+            projectType: "Frontend",
+        },
+        {
             name:"Green Earth",
             image:'/sites/green-earth.png',
             mobileImage:'/sites/green-earth-mobile.png',
